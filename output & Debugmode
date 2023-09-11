@@ -1,0 +1,26 @@
+#!/bin/bash
+
+########################
+# Author: Srikanth
+# Date:11th-sept
+#
+# version: v1
+# This script report the AWS resource usage
+#########################
+
+# AWS S#
+# AWS EC2
+# AWS Lambda
+# AWS IAM Users
+
+# list s3 buckets
+aws s3 ls
+
+# list EC2 Instances
+aws ec2 describe-instances
+
+# list lambda
+aws lambda list-functions
+
+# list IAM users
+aws iam list -users
